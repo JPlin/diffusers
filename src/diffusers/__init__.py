@@ -734,6 +734,7 @@ if TYPE_CHECKING or DIFFUSERS_SLOW_IMPORT:
             CycleDiffusionPipeline,
             FluxControlNetImg2ImgPipeline,
             FluxControlNetInpaintPipeline,
+            FluxControlNetInpaintNativePipeline,
             FluxControlNetPipeline,
             FluxImg2ImgPipeline,
             FluxInpaintPipeline,

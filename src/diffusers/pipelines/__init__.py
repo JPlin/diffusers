@@ -130,6 +130,7 @@ else:
         "FluxControlNetPipeline",
         "FluxControlNetImg2ImgPipeline",
         "FluxControlNetInpaintPipeline",
+        "FluxControlNetInpaintNativePipeline",
         "FluxImg2ImgPipeline",
         "FluxInpaintPipeline",
         "FluxPipeline",
@@ -523,6 +524,7 @@ if TYPE_CHECKING or DIFFUSERS_SLOW_IMPORT:
         from .flux import (
             FluxControlNetImg2ImgPipeline,
             FluxControlNetInpaintPipeline,
+            FluxControlNetInpaintNativePipeline,
             FluxControlNetPipeline,
             FluxImg2ImgPipeline,
             FluxInpaintPipeline,
